@@ -5,9 +5,9 @@ app = Flask(__name__)
 def hello_world():
     return render_template('home.html', jobs = fetch_jobs())
 
-@app.route('/api/jobs')
-def list_jobs():
-    return jsonify(fetch_jobs())
+# @app.route('/api/jobs')
+# def list_jobs():
+#     return jsonify(fetch_jobs())
 
 if __name__ == '__main__':
     Flask.run(self = app,debug = True)
