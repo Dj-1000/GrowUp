@@ -6,7 +6,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.3
 MarkupSafe==2.1.3
 Werkzeug==3.0.1
-gunicor # to deplou on render.com
+gunicorn # to deplou on render.com
 pymysql
 python-dotenv
 sqlalchemy #for database connection
